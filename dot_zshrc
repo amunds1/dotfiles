@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/magnusholtet/.oh-my-zsh"
-#AUTOCOMMIT
+
 plugins=(git zsh-syntax-highlighting)
 
 ZSH_DISABLE_COMPFIX=true
