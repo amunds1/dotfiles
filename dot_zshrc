@@ -3,8 +3,6 @@ export ZSH="/Users/magnusholtet/.oh-my-zsh"
 
 plugins=(git zsh-syntax-highlighting)
 
-#ANHKHA
- 
 ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
