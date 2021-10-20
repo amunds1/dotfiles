@@ -9,6 +9,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias reload="source $HOME/.zshrc"
 alias zshconfig="code ~/.zshrc"
+alias cm="chezmoi"
 
 alias python="/usr/local/bin/python3"
 
@@ -20,7 +21,6 @@ eval $(thefuck --alias)
 
 # Starship Prompt
 eval "$(starship init zsh)"
-
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/magnusholtet/.sdkman"
