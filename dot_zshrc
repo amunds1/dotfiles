@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/magnusholtet/.oh-my-zsh"
+export ZSH="/Users/holtet/.oh-my-zsh"
 
 plugins=(git zsh-syntax-highlighting)
 
@@ -11,8 +11,6 @@ alias reload="source $HOME/.zshrc"
 alias zshconfig="code ~/.zshrc"
 alias cm="chezmoi"
 
-alias python="/usr/local/bin/python3"
-
 # env
 export CLICOLOR=1
 
@@ -21,12 +19,3 @@ eval $(thefuck --alias)
 
 # Starship Prompt
 eval "$(starship init zsh)"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/magnusholtet/.sdkman"
-[[ -s "/Users/magnusholtet/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/magnusholtet/.sdkman/bin/sdkman-init.sh"
-
-export PATH="$HOME/.poetry/bin:$PATH"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
