@@ -3,11 +3,12 @@
 # Please make sure this block is at the start of this file.
 [ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
 #### END FIG ENV VARIABLES ####
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/holtet/.oh-my-zsh"
 export LANG=en_US.UTF-8
 
-plugins=(git zsh-syntax-highlighting brew osx pip python)
+plugins=(git zsh-syntax-highlighting brew osx pip python zsh-z)
 
 ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
