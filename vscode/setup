@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo Linking settings.json and keybindings.json
+ln -sfn "$(pwd)/settings.json" "$HOME/Library/Application Support/Code/User"
+ln -sfn "$(pwd)/keybindings.json" "$HOME/Library/Application Support/Code/User"
