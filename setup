@@ -1,5 +1,8 @@
 #! /bin/bash
 
+echo --- Installing from Brewfile ---
+brew bundle
+
 for setup in **/setup; do
     echo --- $(dirname $setup) ---
     bash -c "cd $(dirname $setup) && ./setup"
