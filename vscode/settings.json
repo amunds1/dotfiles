@@ -12,6 +12,7 @@
 
   // Git
   "git.autofetch": true,
+  "git.confirmSync": false,
 
   // Vim
   "vim.leader": ",",
