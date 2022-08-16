@@ -5,6 +5,6 @@ brew bundle
 
 for setup in **/setup; do
     echo --- $(dirname $setup) ---
-    bash -c "cd $(dirname $setup) && ./setup"
+    zsh -c "cd $(dirname $setup) && ./setup"
     echo
 done
