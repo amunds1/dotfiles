@@ -1,8 +1,5 @@
 # Dotfiles
-
-so til @fshauge
-
-Quick symlink-setup for most vital settings.
+> SO til @fshauge for idea and scripts <3
 
 **Simply clone repo to `$HOME` and:**
 
