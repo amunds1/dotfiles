@@ -2,7 +2,7 @@
 
 # Config
 alias reload="source $HOME/.zshrc"
-alias dotfiles="code ~/.dotfiles"
+alias dotfiles="code ~/dotfiles"
 
 # Listing
 alias ll='ls -l'
