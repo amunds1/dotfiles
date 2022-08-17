@@ -23,6 +23,7 @@ brew "tmux"
 brew "yarn"
 brew "zsh-syntax-highlighting"
 brew "z"
+brew "thefuck"
 
 # Cask
 cask "1password-cli"
