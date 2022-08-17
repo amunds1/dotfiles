@@ -3,8 +3,6 @@
 echo --- Installing from Brewfile ---
 brew bundle
 
-$(brew --prefix)/opt/fzf/install
-
 for setup in **/setup; do
     echo --- $(dirname $setup) ---
     zsh -c "cd $(dirname $setup) && ./setup"

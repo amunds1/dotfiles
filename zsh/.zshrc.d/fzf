@@ -2,3 +2,5 @@
 
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(brew --prefix)/opt/fzf/install"
