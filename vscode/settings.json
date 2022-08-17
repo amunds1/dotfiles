@@ -1,6 +1,6 @@
 {
   // Appearance
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Palenight Theme",
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
@@ -28,5 +28,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace"
 }
