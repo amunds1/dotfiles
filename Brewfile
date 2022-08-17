@@ -24,10 +24,11 @@ brew "tldr"
 brew "tmux"
 brew "yarn"
 brew "zsh-syntax-highlighting"
+brew "z"
 
 # Cask
 cask "1password-cli"
 cask "alt-tab"
 cask "rancher"
-cask "raycast"
+cask "alfred"
 cask "visual-studio-code"
