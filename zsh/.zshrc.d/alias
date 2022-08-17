@@ -1,13 +1,19 @@
 #!/bin/zsh
 
+# Config
 alias reload="source $HOME/.zshrc"
-alias zshconfig="vim ~/.zshrc"
+alias dotfiles="code ~/.dotfiles"
 
-alias cat="bat"
-
+# Listing
 alias ll='ls -l'
 alias la='ls -la'
 
+# Navigation
 alias ..='cd ..'
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
+# Misc
+alias cat="bat"
 alias codepreview=fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
