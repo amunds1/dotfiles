@@ -1,6 +1,7 @@
 [user]
   name = Magnus L. Holtet
   email = dev@holtet.me
-
+[init]
+	defaultBranch = main
 [pull]
 	rebase = false
