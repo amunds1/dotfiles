@@ -4,7 +4,6 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
-  "window.zoomLevel": 0.75,
 
   // Formatting
   "editor.tabSize": 2,
