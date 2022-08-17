@@ -24,6 +24,7 @@ brew "yarn"
 brew "zsh-syntax-highlighting"
 brew "z"
 brew "thefuck"
+brew "bear"
 
 # Cask
 cask "1password-cli"
@@ -38,3 +39,4 @@ cask "slack"
 cask "daisydisk"
 cask "postman"
 cask "vlc"
+cask "firefox-developer-edition"
