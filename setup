@@ -6,7 +6,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 echo --- Installing from Brewfile ---
 brew bundle
 
-for setup in **/setup; do
+for setup in ./*/setup; do
     echo --- $(dirname $setup) ---
     zsh -c "cd $(dirname $setup) && ./setup"
     echo
