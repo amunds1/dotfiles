@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# https://github.com/Homebrew/homebrew-core/blob/master/Formula/zsh-syntax-highlighting.rb
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
