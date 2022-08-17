@@ -1,5 +1,8 @@
 # Dotfiles
+> SO til @fshauge for idea and scripts <3
 
-Quick symlink-setup for most vital settings.
+**Simply clone repo to `$HOME` and:**
 
-so til @fshauge 
+```zsh
+./setup
+```
