@@ -8,3 +8,8 @@ mkdir -p $DIRECTORY
 echo Linking settings.json and keybindings.json
 ln -sfn "$(pwd)/settings.json" $DIRECTORY
 ln -sfn "$(pwd)/keybindings.json" $DIRECTORY
+
+echo Installing extensions
+for i in `cat ./extensions`; do
+  code --install-extension $i
+done

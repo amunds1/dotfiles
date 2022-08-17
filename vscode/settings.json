@@ -1,7 +1,8 @@
 {
   // Appearance
-  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Nord",
   "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
   "window.zoomLevel": 0.75,
 
