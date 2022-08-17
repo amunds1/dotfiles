@@ -10,4 +10,4 @@ alias la='ls -la'
 
 alias ..='cd ..'
 
-alias codepreview=?fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
+alias codepreview=fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'
