@@ -5,6 +5,9 @@ DIRECTORY="$HOME/Library/Application Support/Code/User"
 echo Creating $DIRECTORY
 mkdir -p $DIRECTORY 
 
+echo Copying fonts
+cp fonts/FiraCodeRegularNerdFont.otf $HOME/Library/Fonts
+
 echo Linking settings.json and keybindings.json
 ln -sfn "$(pwd)/settings.json" $DIRECTORY
 ln -sfn "$(pwd)/keybindings.json" $DIRECTORY
