@@ -1,6 +1,6 @@
 {
   // Appearance
-  "workbench.colorTheme": "Palenight Theme",
+  "workbench.colorTheme": "Quiet Light",
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
@@ -20,7 +20,7 @@
 
   // Misc
   "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "explorer.confirmDragAndDrop": false,
 
   // Languages
@@ -29,5 +29,10 @@
 
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace"
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean"
 }
