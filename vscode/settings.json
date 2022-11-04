@@ -1,9 +1,12 @@
 {
   // Appearance
-  "workbench.colorTheme": "Quiet Light",
+  "workbench.colorTheme": "Palenight Theme",
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "window.zoomLevel": 2,
 
   // Formatting
   "editor.tabSize": 2,
@@ -22,17 +25,14 @@
   "workbench.startupEditor": "none",
   "files.autoSave": "off",
   "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
 
   // Languages
   "javascript.preferences.importModuleSpecifier": "relative",
   "javascript.updateImportsOnFileMove.enabled": "always",
-
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
-  },
-  "explorer.confirmDelete": false,
-  "workbench.iconTheme": "eq-material-theme-icons-ocean"
+  }
 }
