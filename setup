@@ -3,6 +3,9 @@
 echo --- Enable global MacOS key repeat ---
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+echo --- Install Homebrew ---
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 echo --- Installing from Brewfile ---
 brew bundle
 
