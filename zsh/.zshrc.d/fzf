@@ -3,4 +3,7 @@
 # https://github.com/junegunn/fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Uncomment the line below, run once and then comment the line out
+# $(brew --prefix)/opt/fzf/install
+
 # eval "$(brew --prefix)/opt/fzf/install"
