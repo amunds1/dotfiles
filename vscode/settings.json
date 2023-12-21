@@ -1,21 +1,26 @@
 {
   // Appearance
-  "workbench.colorTheme": "Palenight Theme",
+  "workbench.colorTheme": "Nord",
   "editor.bracketPairColorization.enabled": true,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
   "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "window.zoomLevel": 1,
 
   // Formatting
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
-  // Git
-  "git.autofetch": true,
-  "git.confirmSync": false,
+  // Run eslint --fix on file save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Show suggestions while typing
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
 
   // Vim
   "vim.leader": ",",
@@ -32,7 +37,46 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Python
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
-  }
+  },
+
+  // Tailwind
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // GitHub Pull Requests and Issues
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+
+  // Total Typescript
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "totalTypeScript.hiddenTips": [
+    "passing-generics-to-types",
+    "record-utility-type"
+  ]
 }
