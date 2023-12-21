@@ -1,3 +1,4 @@
 #!/bin/zsh
 
 # source ~/.nvm/nvm.sh
+source $(brew --prefix nvm)/nvm.sh
