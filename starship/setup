@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+DIRECTORY="$HOME/.config/starship.toml"
+
+echo Creating Starship config file at $DIRECTORY
+mkdir -p "~/.config" && touch "~/.config/starship.toml"
+
+echo Linking starship config
+ln -sfn "$(pwd)/starship.toml" $DIRECTORY
+
+# export STARSHIP_CONFIG=~/.config/starship.toml
