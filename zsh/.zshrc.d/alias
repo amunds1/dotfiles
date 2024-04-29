@@ -13,6 +13,8 @@ alias ..='cd ..'
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias dist="z Skiforeningen.Distansekort"
+alias infra="z Skiforeningen.Infrastructure"
 
 # Misc
 alias cat="bat"
