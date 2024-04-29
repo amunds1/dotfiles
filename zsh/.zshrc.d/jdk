@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+export JAVA_HOME="/Users/andreas/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home"
