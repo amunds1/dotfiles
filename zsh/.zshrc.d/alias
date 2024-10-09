@@ -197,3 +197,4 @@ alias gama='git am --abort'
 alias gamscp='git am --show-current-patch'
 alias dmb='git branch --merged | egrep -v "(^\*|master|main|dev|develop)" | xargs git branch -d'
 alias cl="gl && git fetch --prune && dmb"
+alias lg="lazygit"
