@@ -1,3 +1,11 @@
 #!/bin/zsh
 
-autoload -Uz compinit && compinit
+# Only rebuild the completion dump once per day; on other days skip the
+# security check (-C) which avoids re-scanning $fpath on every shell start.
+autoload -Uz compinit
+if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
+
