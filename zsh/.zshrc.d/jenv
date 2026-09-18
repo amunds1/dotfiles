@@ -1,4 +1,14 @@
 #!/bin/zsh
 
 export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+
+# Lazy-load jenv: avoid forking jenv init on every shell start; only pay the
+# cost the first time java/javac/jenv is actually used.
+_load_jenv() {
+  unset -f jenv java javac
+  eval "$(jenv init -)"
+}
+
+jenv() { _load_jenv; jenv "$@"; }
+java() { _load_jenv; java "$@"; }
+javac() { _load_jenv; javac "$@"; }

@@ -1,4 +1,14 @@
 #!/bin/zsh
 
-# source ~/.nvm/nvm.sh
-source $(brew --prefix nvm)/nvm.sh
+# Lazy-load nvm: avoid forking `brew --prefix` and sourcing nvm.sh on every
+# shell start. nvm.sh is only sourced the first time nvm/node/npm is used.
+export NVM_DIR="$HOME/.nvm"
+
+_load_nvm() {
+  unset -f nvm node npm
+  source "$(brew --prefix nvm)/nvm.sh"
+}
+
+nvm() { _load_nvm; nvm "$@"; }
+node() { _load_nvm; node "$@"; }
+npm() { _load_nvm; npm "$@"; }

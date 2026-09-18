@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# Use shims mode instead of full `mise activate`: adds mise shims to PATH once
+# at startup instead of installing a precmd/chpwd hook that re-runs on every
+# prompt and directory change.
+eval "$(mise activate zsh --shims)"
