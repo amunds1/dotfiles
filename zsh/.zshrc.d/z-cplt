@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# Lazy-load cplt shell integration: avoid forking cplt on every shell start;
+# only pay the cost the first time `cplt` is actually invoked.
+cplt() {
+  unset -f cplt
+  eval "$(cplt --shell-setup)"
+  cplt "$@"
+}

@@ -1,3 +1,9 @@
 #!/bin/zsh
 
-eval $(thefuck --alias)
+# Lazy-load thefuck: avoid starting a Python interpreter on every shell
+# start; only pay the cost the first time `fuck` is actually invoked.
+fuck() {
+  unset -f fuck
+  eval "$(thefuck --alias)"
+  fuck "$@"
+}

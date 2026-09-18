@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+# GOPATH defaults to ~/go and rarely changes; hardcode it instead of forking
+# `go env` on every shell start.
+export GOPATH="$HOME/go"
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
