@@ -48,8 +48,6 @@ brew "git"
 brew "go"
 # Version Control Visualization Tool
 brew "gource"
-# Development kit for the Java programming language
-brew "openjdk"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
 brew "gradle"
 # Client library for huggingface.co hub
